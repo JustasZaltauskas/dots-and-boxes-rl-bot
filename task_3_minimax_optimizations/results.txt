@@ -1,0 +1,52 @@
+2023-04-29 20:01:32.691779
+
+Each entry represents the time spent, number of states searched and size of transposition table (if performed by an optimized searcher)
+Starting run for dimension (1, 1)
+Optimised: [datetime.timedelta(microseconds=5376), 33], N = 15
+Naive: [datetime.timedelta(microseconds=291), 65]
+
+
+Starting run for dimension (1, 2)
+Optimised: [datetime.timedelta(microseconds=42360), 467], N = 139
+Naive: [datetime.timedelta(microseconds=55571), 13700]
+
+
+Starting run for dimension (1, 3)
+Optimised: [datetime.timedelta(microseconds=628245), 5861], N = 1349
+Naive: [datetime.timedelta(seconds=39, microseconds=728911), 9864101]
+
+
+Starting run for dimension (2, 2)
+Optimised: [datetime.timedelta(seconds=8, microseconds=165737), 40025], N = 12651
+Naive: [datetime.timedelta(seconds=5343, microseconds=689996), 1302061345]
+
+
+2023-04-29 21:31:25.010412
+
+
+
+2023-05-04 22:00:09.977953
+
+Each entry represents the time spent, number of states searched and size of transposition table (if performed by an optimized searcher)
+Starting run for dimension (1, 1)
+HalfOptimised: [datetime.timedelta(microseconds=331), 33], N = 15
+FullyOptimised: [datetime.timedelta(microseconds=2342), 13], N = 5
+
+
+Starting run for dimension (1, 2)
+HalfOptimised: [datetime.timedelta(microseconds=3770), 467], N = 139
+FullyOptimised: [datetime.timedelta(microseconds=16424), 176], N = 52
+
+
+Starting run for dimension (1, 3)
+HalfOptimised: [datetime.timedelta(microseconds=47910), 5861], N = 1349
+FullyOptimised: [datetime.timedelta(microseconds=219792), 1925], N = 469
+
+
+Starting run for dimension (2, 2)
+HalfOptimised: [datetime.timedelta(microseconds=819110), 40025], N = 12651
+FullyOptimised: [datetime.timedelta(seconds=1, microseconds=196957), 5571], N = 1767
+
+
+2023-05-04 22:00:12.286402
+

@@ -1,0 +1,17 @@
+# Install open_spiel/requirements.txt first.
+# These are requirements needed for this repo which are not already specified in the open_spiel requirements.
+# Be careful when adding dependencies to this file, as they may not be installed on the tournament server.
+
+black # code formatter. Not on the tournament server but will cause no runtime issues.
+
+# plotting
+ipykernel
+matplotlib
+
+# ML models for RL
+tensorflow
+
+# tournament running code
+click
+pandas
+tqdm

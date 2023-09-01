@@ -1,0 +1,31 @@
+{
+  "actors": 4,
+  "checkpoint_freq": 50,
+  "eval_levels": 7,
+  "evaluation_window": 100,
+  "evaluators": 1,
+  "game": "dots_and_boxes(num_rows=7,num_cols=7)",
+  "learning_rate": 0.001,
+  "max_simulations": 75,
+  "max_steps": 0,
+  "nn_depth": 10,
+  "nn_model": "resnet",
+  "nn_width": 128,
+  "observation_shape": [
+    3,
+    64,
+    3
+  ],
+  "output_size": 112,
+  "path": "/home/r0959678/repos/rl-project-KULeuven/az_checkpoints/dots_and_boxes_7x7_actors4_sim75/",
+  "policy_alpha": 1.0,
+  "policy_epsilon": 0.25,
+  "quiet": true,
+  "replay_buffer_reuse": 3,
+  "replay_buffer_size": 512,
+  "temperature": 1.0,
+  "temperature_drop": 10,
+  "train_batch_size": 128,
+  "uct_c": 2,
+  "weight_decay": 0.0001
+}

@@ -1,0 +1,7 @@
+*__pycache__*
+.idea/
+*ipynb_checkpoints*
+
+# exclude checkpoint files by default
+# can commit a few manually that we want to keep
+az_checkpoints/*/checkpoint*
